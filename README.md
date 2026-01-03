@@ -73,23 +73,33 @@ Commandes clavier
 Structure des fichiers
 Structure des fichiers
 ```
+7. Structure des fichiers
 SpaceInvaders/
-├─ modele.c
-├─ modele.h
-├─ controleur.c
-├─ controleur.h
-├─ vue_ncurses.c
-├─ vue_ncurses.h
-├─ vue_sdl.c
-├─ vue_sdl.h
+├─ modele.c / modele.h
+├─ controleur.c / controleur.h
+├─ vue_ncurses.c / vue_ncurses.h
+├─ vue_sdl.c / vue_sdl.h
+├─ external/
+│     └─ SDL3/
+│  	└─ lib/
+│  	└─ include/
 ├─ utils/
 │  └─ texture/
-│     ├─ ship_2.png
-│     ├─ monstre_1.png
-│     ├─ shield_1.png
-│     ├─ shield_2.png
-│     ├─ projectile_0.png
+│     └─ ship_2.png
+│     └─ monstre_1.png
+│     └─ shield_1.png
+│     └─ shield_2.png
+│     └─ projectile_0.png
 │     └─ projectile_1.png
+│     └─ you_win.png
+│     └─ game_over.png
+│     └─ life.png
+│     └─ L.png
+│     └─ E.png
+│     └─ V.png
+│     └─ un.png
+│     └─ deux.png
+│     └─ trois.png
 └─ README.md
 
 ```
