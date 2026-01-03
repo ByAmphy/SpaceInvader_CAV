@@ -28,9 +28,10 @@ Architecture **MVC** :
 Compilation
 gcc *.c -I./external/SDL3/include -L./external/SDL3/lib -lSDL3 -lncurses -Wl,-rpath,'$ORIGIN/external/SDL3/lib' -o space_invaders
 Choisir 1 ou 2, pour le mode.
-
+---
 Exécution:
 ./space_invaders
+---
 
 Commandes clavier
 Touche	           Action
@@ -40,6 +41,7 @@ Espace	     Tirer un projectile
 Q	           Quitter le jeu
 Entrée	     Recommencer après Game Over ou victoire
 N	           Passer au niveau suivant (victoire SDL uniquement)
+---
 
 Structure des fichiers
 SpaceInvaders/
